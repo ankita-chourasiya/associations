@@ -300,7 +300,7 @@ paragraph.section
 ```
 
 
-* Choosing Between has_many :through and has_and_belongs_to_many
+# Choosing Between has_many :through and has_and_belongs_to_many
 
 ```
 set up a has_many :through relationship if you need to work with the relationship model as an independent entity. If you don't need to do anything with the relationship model, it may be simpler to set up a has_and_belongs_to_many relationship.
@@ -309,7 +309,7 @@ You should use has_many :through if you need validations, callbacks, or extra at
 ```
 
 
-* Person model so that any Person can be assigned as the parent of another Personn  What columns would you need to define in the migration creating the table for Person?
+# Person model so that any Person can be assigned as the parent of another Personn  What columns would you need to define in the migration creating the table for Person?
 
 ```
 For example:
