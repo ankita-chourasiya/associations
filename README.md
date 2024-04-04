@@ -190,6 +190,13 @@ assignment.user
 assignment.role
 ```
 
+* we can directly fetch user's assignment and roles assignment
+```
+user3.assignments
+role3.assignments
+```
+
+
 
 # Polymorphic Associations: A model can belong to more than one other model
 
